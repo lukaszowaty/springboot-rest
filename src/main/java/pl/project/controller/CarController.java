@@ -59,7 +59,7 @@ public class CarController {
 	}
 	
 	@GetMapping("/download")
-public ModelAndView reportXLS() {
+	public ModelAndView reportXLS() {
 		
 		Map<String, Object> model = new HashMap<>();
 		
